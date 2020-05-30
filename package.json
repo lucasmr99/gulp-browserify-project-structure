@@ -1,0 +1,23 @@
+{
+  "name": "brawserify-babel-gulp",
+  "version": "0.1.0",
+  "description": "babel+browserify+gulp project struct",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lucas medina",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "intl-messageformat": "^8.3.16",
+    "intl-relativeformat": "^6.4.3"
+  }
+}
